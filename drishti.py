@@ -6,11 +6,11 @@ dom = Element(url)
 dom = dom.by_tag('tbody')[0]
 
 
-#date
+#date Get the date from the header
 date = dom.by_class('s0')[1].content
 
 
-#places
+#places Read the place from available class='s4' inside <td>
 places = []
 for ix in dom.by_class('s4'):
        		places.append(ix.content)
@@ -50,4 +50,4 @@ for ix in places:
        	n = n+1
        	with open(filepath, 'a') as myfile:
        		myfile.write(last_reading+ "\n")
-       	print last_reading
+       	#print last_reading

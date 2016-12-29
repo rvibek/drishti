@@ -13,4 +13,4 @@ I have added Python notebook to create charts
 *data as of 2016.12.29*
 
 ![image](timeseries201612.png)
-*THAMEL - data as of 2016.12.29*
+*THAPATHALI - data as of 2016.12.29*

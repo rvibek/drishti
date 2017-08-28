@@ -15,5 +15,5 @@ I have added Python notebook to create charts
 ![image](timeseries_Koteshwor_201708.png)
 *KOTESHWOR - data as of 2017.08.27*
 
-![image](timeseries_Satodobat_201708.png)
+![image](timeseries_Satodobato_201708.png)
 *SATDOBATO - data as of 2017.08.27*

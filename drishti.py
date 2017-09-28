@@ -5,7 +5,6 @@ url = URL('https://docs.google.com/spreadsheets/d/1J2I40hglES63YZHROcOL3oAjDPqii
 dom = Element(url)
 dom = dom.by_tag('tbody')[0]
 
-
 #date Get the date from the header
 date = dom.by_class('s0')[1].content
 

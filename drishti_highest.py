@@ -80,7 +80,7 @@ print len(ahighest), len(places), len(adate), len(atime)
 
 quote = '"'
 delimit = ","
-filepath = "drishti/drishti.csv" #folder path
+filepath = "/home/rvibek/git/drishti/drishti.csv" #folder path
 # filepath = "drishti.csv"
 for i in range(0,len(places)):
   highest_reading = quote+str(adate[i])+quote+delimit+ quote+str(atime[i])+quote+delimit+quote+places[i]+quote+delimit+ahighest[i]+delimit+"H"

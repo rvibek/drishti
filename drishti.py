@@ -43,7 +43,7 @@ except:
 n=0
 quote = '"'
 delimit = ","
-filepath = "drishti.csv" #folder path
+filepath = "/home/rvibek/git/drishti/drishti.csv" #folder path
 for ix in places:
        	last_reading = quote+str(date)+quote+delimit+quote+str(pol_updated[n])+quote+delimit+quote+places[n]+quote+delimit +str(pol_reading[n])+delimit+"R"
        	n = n+1
